@@ -1,0 +1,117 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.cardsContainer {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.ifza {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(180, 158, 33);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.ContainerWrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+}
+.ContainerWrapperRQ {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+}
+
+.stylesComponent {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  margin: 7px;
+  background-color: rgba(255, 255, 255, 0.864);
+}
+.mainText {
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 0px;
+  padding-left: 5px;
+}
+
+.number {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  font-size: 26px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button {
+  color: white;
+  padding: 20px;
+  border: 0px;
+  padding: 18px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.numberColor {
+  color: orangered;
+  font-weight: 600;
+}
+.red {
+  background-color: orangered;
+}
+
+.black {
+  background-color: rgba(0, 0, 0, 0.808);
+}
+.numberBlack {
+  color: rgba(0, 0, 0, 0.808);
+  font-weight: 600;
+}
+
+.blue {
+  background-color: rgb(52, 117, 237);
+}
+
+.numberBlue {
+  color: rgb(52, 117, 237);
+  font-weight: 600;
+}
+
+.green {
+  background-color: rgb(47, 197, 47);
+}
+
+.numberGreen {
+  color: rgb(47, 197, 47);
+  font-weight: 600;
+}
+
+.CardContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  height: 300px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Card {
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.878);
+}
+.CardInfo {
+  text-align: center;
+  padding-top: 70px;
+}
+.CardInfo p {
+  text-decoration: none;
+}
+.importData {
+  font-size: 14px;
+  text-decoration: none;
+  color: rgb(8, 8, 236);
+}
